@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gameFragmentt"
+    android:background="@drawable/backgroundgame"
+
+    tools:context=".view.Game">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score : 0"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#590BE3"
+        android:text="Start"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_gravity="center" />
+
+</FrameLayout>

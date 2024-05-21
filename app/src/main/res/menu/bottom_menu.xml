@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/baseline_home_filled_24"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/astronomyFragment"
+        android:icon="@drawable/icon_star"
+        android:title="@string/astronomy_picture_of_the_day"/>
+
+    <item
+        android:id="@+id/marsRoverFragment"
+        android:icon="@drawable/icon_rocket"
+        android:title="@string/mars_rover_photos"/>
+
+    <item
+        android:id="@+id/earthFragment"
+        android:icon="@drawable/icon_planet"
+        android:title="@string/earth"/>
+    <item
+        android:id="@+id/gameFragment"
+        android:icon="@drawable/baseline_videogame_asset_24"
+        android:title="@string/game"/>
+</menu>
